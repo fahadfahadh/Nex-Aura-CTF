@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#050816" />
+<title>Nex Aura — The Future of Competitive Cybersecurity</title>
+<meta name="description" content="Nex Aura is a global cybersecurity, CTF, AI and technology community evolving into a revolutionary competitive platform for hackers, researchers and builders." />
+<meta name="keywords" content="Nex Aura, cybersecurity, CTF, hacking, AI, community, competitive hacking, bug bounty, red team, blue team, OSINT, forensics, reverse engineering" />
+<meta name="author" content="Nex Aura" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="/" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Nex Aura — The Future of Competitive Cybersecurity" />
+<meta property="og:description" content="A global community of hackers, developers and security researchers. Building the next generation competitive cybersecurity platform." />
+<meta property="og:site_name" content="Nex Aura" />
+<meta property="og:url" content="/" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Nex Aura — The Future of Competitive Cybersecurity" />
+<meta name="twitter:description" content="Hackers, researchers and builders shaping the next era of cyber competitions." />
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Nex Aura",
+  "url": "/",
+  "description": "A global cybersecurity, CTF, AI and technology community evolving into a competitive cybersecurity platform.",
+  "sameAs": ["https://discord.gg/", "https://github.com/"]
+}
+</script>
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Sora:wght@400;600;700;800&family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+
+<!-- Animated background layers -->
+<div class="bg-layers" aria-hidden="true">
+  <div class="aurora aurora-1"></div>
+  <div class="aurora aurora-2"></div>
+  <div class="aurora aurora-3"></div>
+  <div class="grid"></div>
+  <canvas id="particles"></canvas>
+  <div class="stars"></div>
+  <div class="noise"></div>
+</div>
+
+<!-- Scroll progress -->
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand" aria-label="Nex Aura home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="28" height="28"><defs><linearGradient id="lg1" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#00E5FF"/><stop offset=".5" stop-color="#7C4DFF"/><stop offset="1" stop-color="#FF2D88"/></linearGradient></defs><path d="M16 2 L28 9 V23 L16 30 L4 23 V9 Z" fill="none" stroke="url(#lg1)" stroke-width="2"/><path d="M10 22 V12 L22 22 V12" fill="none" stroke="url(#lg1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+      <span class="brand-text">Nex<span class="brand-accent">Aura</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#features">Community</a>
+      <a href="#platform">Platform</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#projects">Projects</a>
+      <a href="#events">Events</a>
+      <a href="#team">Team</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="#join" class="btn btn-primary magnetic" data-magnetic><span>Join Community</span></a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav-mobile" id="navMobile">
+    <a href="#about">About</a>
+    <a href="#features">Community</a>
+    <a href="#platform">Platform</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#projects">Projects</a>
+    <a href="#events">Events</a>
+    <a href="#team">Team</a>
+    <a href="#faq">FAQ</a>
+    <a href="#join" class="btn btn-primary">Join Community</a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-copy reveal">
+      <div class="eyebrow glass-chip">
+        <span class="dot"></span> Building the future of competitive cybersecurity
+      </div>
+      <h1 class="hero-title">
+        <span class="grad-text">Nex Aura</span>
+        <span class="hero-sub-title">Where hackers, builders and researchers converge.</span>
+      </h1>
+      <p class="hero-desc">
+        A global community of security researchers, developers and technology enthusiasts —
+        evolving into a next-generation platform for competitive hacking, AI security,
+        and real-world cyber warfare simulations.
+      </p>
+      <div class="hero-actions">
+        <a href="#features" class="btn btn-primary magnetic" data-magnetic><span>Explore Community</span><i class="arrow">→</i></a>
+        <a href="#platform" class="btn btn-ghost magnetic" data-magnetic><span>Upcoming Platform</span></a>
+        <a href="#join" class="btn btn-outline magnetic" data-magnetic><span>Join Discord</span></a>
+      </div>
+      <div class="hero-stats">
+        <div><strong data-count="12500">0</strong><span>Members</span></div>
+        <div><strong data-count="340">0</strong><span>Events</span></div>
+        <div><strong data-count="1200">0</strong><span>Writeups</span></div>
+        <div><strong data-count="72">0</strong><span>Countries</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="orb-stack">
+        <div class="orb orb-a float-slow"></div>
+        <div class="orb orb-b float-med"></div>
+        <div class="orb orb-c float-fast"></div>
+
+        <div class="glass-card float-med tilt hero-card-1">
+          <div class="card-head">
+            <span class="badge live"><i></i> LIVE</span>
+            <span class="mono">battlefield_04.nex</span>
+          </div>
+          <div class="card-title">Red vs Blue • Sector 7</div>
+          <div class="card-metrics">
+            <div><span>Attackers</span><b>128</b></div>
+            <div><span>Defenders</span><b>96</b></div>
+            <div><span>Flags</span><b>17</b></div>
+          </div>
+          <div class="progress"><span style="--w:78%"></span></div>
+        </div>
+
+        <div class="glass-card float-slow tilt hero-card-2">
+          <div class="card-head">
+            <span class="badge">CTF</span>
+            <span class="mono">chal / crypto</span>
+          </div>
+          <div class="card-title mono">RSA_LOW_EXP()</div>
+          <p class="card-desc">Recover plaintext when the public exponent is small and no padding is applied.</p>
+          <div class="chips">
+            <span>crypto</span><span>math</span><span>250 pts</span>
+          </div>
+        </div>
+
+        <div class="glass-card float-fast tilt hero-card-3">
+          <div class="card-head"><span class="badge gold">RANK</span><span class="mono">global</span></div>
+          <div class="rank-list">
+            <div><span>01</span><b>zer0cool</b><i>18,204</i></div>
+            <div><span>02</span><b>nyx</b><i>17,940</i></div>
+            <div><span>03</span><b>aurora_x</b><i>17,331</i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-hint" aria-label="Scroll to next section"><span></span></a>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow glass-chip"><span class="dot"></span> About</span>
+      <h2 class="section-title">A community forged for the next era of cybersecurity.</h2>
+      <p class="section-lede">
+        Nex Aura began with a simple belief — that the world's most curious minds deserve a place
+        where they can learn ruthlessly, compete fairly, and build fearlessly. Today we are a
+        collective of hackers, researchers, students and engineers. Tomorrow, we are the platform
+        where the world sharpens its edge.
+      </p>
+    </div>
+
+    <div class="grid-3">
+      <article class="glass-card tilt reveal">
+        <h3>Who we are</h3>
+        <p>A distributed community of security researchers, CTF players, red-teamers and blue-teamers united by craft over credentials.</p>
+      </article>
+      <article class="glass-card tilt reveal">
+        <h3>Why we started</h3>
+        <p>Because talent is everywhere, but access isn't. We built Nex Aura to remove the gate between curiosity and world-class practice.</p>
+      </article>
+      <article class="glass-card tilt reveal">
+        <h3>Our mission</h3>
+        <p>Train the next generation of defenders and offensive specialists through relentless, hands-on competition.</p>
+      </article>
+      <article class="glass-card tilt reveal">
+        <h3>Our vision</h3>
+        <p>A single home for competitive cybersecurity — where every discipline, from binary exploitation to AI security, has a stage.</p>
+      </article>
+      <article class="glass-card tilt reveal">
+        <h3>What makes us different</h3>
+        <p>We are practitioners, not spectators. Everything we ship — writeups, labs, tournaments — is built by the community for the community.</p>
+      </article>
+      <article class="glass-card tilt reveal">
+        <h3>Culture</h3>
+        <p>Curiosity without ego. Depth without gatekeeping. Excellence measured by what you can teach, not what you can hoard.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CORE VALUES -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow glass-chip"><span class="dot"></span> Core Values</span>
+      <h2 class="section-title">Principles we defend, exploit, and refactor.</h2>
+    </div>
+    <div class="values-grid">
+      <div class="value glass-card tilt reveal"><i class="v-ico">◈</i><h4>Innovation</h4><p>Push past patterns. Prototype the impossible.</p></div>
+      <div class="value glass-card tilt reveal"><i class="v-ico">◇</i><h4>Learning</h4><p>Every failed exploit is a paid lesson.</p></div>
+      <div class="value glass-card tilt reveal"><i class="v-ico">◉</i><h4>Collaboration</h4><p>Great research is a team sport.</p></div>
+      <div class="value glass-card tilt reveal"><i class="v-ico">⬢</i><h4>Competition</h4><p>Sharpen skill under real pressure.</p></div>
+      <div class="value glass-card tilt reveal"><i class="v-ico">⌬</i><h4>Open Source</h4><p>What we build, we share.</p></div>
+      <div class="value glass-card tilt reveal"><i class="v-ico">⚑</i><h4>Security</h4><p>Ethics first. Always.</p></div>
+      <div class="value glass-card tilt reveal"><i class="v-ico">✦</i><h4>Community First</h4><p>Individuals shine, the community wins.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- COMMUNITY FEATURES -->
+<section id="features" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow glass-chip"><span class="dot"></span> Community</span>
+      <h2 class="section-title">Everything you need to level up — in one collective.</h2>
+      <p class="section-lede">From your first buffer overflow to your first zero-day, Nex Aura is the room where it happens.</p>
+    </div>
+    <div class="grid-3">
+      <div class="feature glass-card tilt reveal"><div class="f-ico">🚩</div><h3>CTF Challenges</h3><p>Weekly rotating challenges across every category, curated by senior researchers.</p></div>
+      <div class="feature glass-card tilt reveal"><div class="f-ico">📓</div><h3>Writeups</h3><p>A library of thousands of high-signal writeups, indexed and searchable.</p></div>
+      <div class="feature glass-card tilt reveal"><div class="f-ico">🧭</div><h3>Learning Paths</h3><p>Guided tracks from fundamentals to advanced offensive and defensive tradecraft.</p></div>
+      <div class="feature glass-card tilt reveal"><div class="f-ico">🔬</div><h3>Research</h3><p>Original security research and public disclosures produced with the community.</p></div>
+      <div class="feature glass-card tilt reveal"><div class="f-ico">🎓</div><h3>Mentorship</h3><p>1:1 and cohort-based mentorship from experienced red and blue team veterans.</p></div>
+      <div class="feature glass-card tilt reveal"><div class="f-ico">🎫</div><h3>Events</h3><p>Live streams, workshops, AMAs and technical deep dives every month.</p></div>
+      <div class="feature glass-card tilt reveal"><div class="f-ico">⚔️</div><h3>Hackathons</h3><p>Build-and-break weekends where teams ship real security tooling.</p></div>
+      <div class="feature glass-card tilt reveal"><div class="f-ico">🌐</div><h3>Networking</h3><p>Meet operators, founders and recruiters actively hiring in cybersecurity.</p></div>
+      <div class="feature glass-card tilt reveal"><div class="f-ico">💬</div><h3>Discord</h3><p>A living command center for discussion, collaboration, and challenge chatter.</p></div>
+      <div class="feature glass-card tilt reveal"><div class="f-ico">⌘</div><h3>Open Source</h3><p>Community-maintained tools, wordlists, exploits and defensive playbooks.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PLATFORM VISION -->
+<section id="platform" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow glass-chip"><span class="dot"></span> The Platform</span>
+      <h2 class="section-title">The Nex Aura Platform — competitive cyber, reimagined.</h2>
+      <p class="section-lede">
+        A unified arena where every discipline of cybersecurity has a stage, a scoreboard,
+        and a season. Not another CTF site. A competitive category, built from scratch.
+      </p>
+    </div>
+    <div class="platform-grid">
+      <div class="p-card glass-card tilt reveal"><span class="p-tag">Flagship</span><h3>Battlefields</h3><p>Live PvP hacking arenas. Real infrastructure, real adversaries, real-time scoring.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>CTFs</h3><p>Traditional Jeopardy and Attack/Defense CTFs across every skill category.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Bug Bounty Arena</h3><p>Curated targets with escalating bounties and disclosure timelines.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Reverse Engineering Lab</h3><p>Firmware, binaries, malware samples — timed tournaments and open sandboxes.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>OSINT Missions</h3><p>Investigative scenarios that reward tradecraft, patience and pattern recognition.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Digital Forensics</h3><p>Disk, memory, and network forensic puzzles from real-world incidents.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Cryptography</h3><p>From classical ciphers to lattice-based post-quantum challenges.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Binary Exploitation</h3><p>Heap, stack, kernel — every era of pwn represented.</p></div>
+      <div class="p-card glass-card tilt reveal"><span class="p-tag">New</span><h3>AI Security</h3><p>Prompt injection, model theft, adversarial ML, jailbreak tournaments.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Cloud Security Labs</h3><p>Misconfigured AWS, Azure and GCP environments waiting to be broken.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Web Security</h3><p>Modern web exploitation — SSRF, deserialization, auth bypass, and beyond.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Mobile Security</h3><p>Android and iOS reversing, runtime instrumentation, and app hardening.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Red vs Blue</h3><p>Full-scale team tournaments with realistic corporate environments.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Attack / Defense</h3><p>Both sides of the wire, scored live, streamed to spectators.</p></div>
+      <div class="p-card glass-card tilt reveal"><span class="p-tag">Season</span><h3>Championships</h3><p>Seasonal global tournaments with prize pools, trophies, and rankings.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Ranked Mode</h3><p>Solo and team ladder with skill-based matchmaking and division decay.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Guilds &amp; Teams</h3><p>Recruit, train, and represent — with team pages and shared trophies.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Achievements</h3><p>Unlockable milestones for depth, breadth and specialization.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Badges</h3><p>Signal your specialties. From "First Blood" to "Zero Day Author".</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Leaderboards</h3><p>Category, regional and global leaderboards updated in real time.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Skill Trees</h3><p>Visual progression maps that track mastery across every discipline.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Career Progress</h3><p>Verifiable proof-of-skill exports for recruiters and hiring teams.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Interactive Labs</h3><p>Hands-on environments that spin up in seconds. No local setup, ever.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Community Challenges</h3><p>Anyone can author. Peer-reviewed, ranked and rewarded.</p></div>
+      <div class="p-card glass-card tilt reveal"><h3>Tool Marketplace</h3><p>A curated marketplace for community-built tooling, scripts and wordlists.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TIMELINE -->
+<section id="timeline" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow glass-chip"><span class="dot"></span> Timeline</span>
+      <h2 class="section-title">From a small collective to a global platform.</h2>
+    </div>
+    <div class="timeline">
+      <div class="tl-item reveal"><span class="tl-year">Past</span><div class="glass-card tilt"><h3>Origins</h3><p>Founded as a research collective for CTF players and independent security researchers who wanted a serious room to train in.</p></div></div>
+      <div class="tl-item reveal"><span class="tl-year">Now</span><div class="glass-card tilt"><h3>Community</h3><p>Thousands of members across dozens of countries running weekly CTFs, workshops, writeups and open-source security projects.</p></div></div>
+      <div class="tl-item reveal"><span class="tl-year">Next</span><div class="glass-card tilt"><h3>Platform Alpha</h3><p>Launching Battlefields, Ranked Mode and the first Nex Aura Championship — invite-only alpha for community veterans.</p></div></div>
+      <div class="tl-item reveal"><span class="tl-year">Future</span><div class="glass-card tilt"><h3>Global League</h3><p>A worldwide competitive league with seasonal tournaments, sponsored prize pools, and pro teams.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow glass-chip"><span class="dot"></span> By the Numbers</span>
+      <h2 class="section-title">A community measured in shipped work.</h2>
+    </div>
+    <div class="stats-grid">
+      <div class="stat glass-card tilt reveal"><b data-count="12500">0</b><span>Community Members</span></div>
+      <div class="stat glass-card tilt reveal"><b data-count="340">0</b><span>Events Hosted</span></div>
+      <div class="stat glass-card tilt reveal"><b data-count="820">0</b><span>CTFs Played</span></div>
+      <div class="stat glass-card tilt reveal"><b data-count="146">0</b><span>Open Source Projects</span></div>
+      <div class="stat glass-card tilt reveal"><b data-count="1200">0</b><span>Writeups Published</span></div>
+      <div class="stat glass-card tilt reveal"><b data-count="58">0</b><span>Competitions Won</span></div>
+      <div class="stat glass-card tilt reveal"><b data-count="72">0</b><span>Countries</span></div>
+      <div class="stat glass-card tilt reveal"><b data-count="8400">0</b><span>Discord Members</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- TERMINAL -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow glass-chip"><span class="dot"></span> /root — terminal</span>
+      <h2 class="section-title">Try the Nex Aura shell.</h2>
+      <p class="section-lede">Type <code>help</code> to see available commands. There may be secrets.</p>
+    </div>
+    <div class="terminal glass-card reveal" id="terminal">
+      <div class="term-head">
+        <span class="tdot r"></span><span class="tdot y"></span><span class="tdot g"></span>
+        <span class="term-title mono">nexaura@grid:~$</span>
+      </div>
+      <div class="term-body" id="termBody" tabindex="0" aria-label="Interactive terminal">
+        <div class="term-line"><span class="term-prompt">nexaura@grid:~$</span> welcome</div>
+        <div class="term-line term-out">Welcome to Nex Aura. Type <b>help</b> to begin.</div>
+      </div>
+      <div class="term-input-row">
+        <span class="term-prompt">nexaura@grid:~$</span>
+        <input id="termInput" class="term-input mono" autocomplete="off" spellcheck="false" aria-label="Terminal input" />
+        <span class="term-caret" aria-hidden="true"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow glass-chip"><span class="dot"></span> Featured Projects</span>
+      <h2 class="section-title">Community-built. Battle-tested.</h2>
+    </div>
+    <div class="grid-3">
+      <article class="proj glass-card tilt reveal">
+        <div class="proj-head"><span class="badge">OSS</span><span class="mono">v2.4.0</span></div>
+        <h3>AuraRecon</h3>
+        <p>A modular reconnaissance framework for bug hunters and red teamers, with plug-and-play modules.</p>
+        <div class="chips"><span>Go</span><span>Recon</span><span>CLI</span></div>
+        <div class="proj-actions"><a href="#" class="link">GitHub →</a><a href="#" class="link">Demo →</a></div>
+      </article>
+      <article class="proj glass-card tilt reveal">
+        <div class="proj-head"><span class="badge">Lab</span><span class="mono">alpha</span></div>
+        <h3>Nyx Sandbox</h3>
+        <p>Ephemeral cloud labs that spin up vulnerable environments in seconds, straight from the browser.</p>
+        <div class="chips"><span>K8s</span><span>Rust</span><span>WASM</span></div>
+        <div class="proj-actions"><a href="#" class="link">GitHub →</a><a href="#" class="link">Docs →</a></div>
+      </article>
+      <article class="proj glass-card tilt reveal">
+        <div class="proj-head"><span class="badge">Research</span><span class="mono">2025</span></div>
+        <h3>PromptForge</h3>
+        <p>An open testbed for AI red-teaming — prompt injection, model extraction, and jailbreak scoring.</p>
+        <div class="chips"><span>Python</span><span>AI</span><span>Security</span></div>
+        <div class="proj-actions"><a href="#" class="link">Paper →</a><a href="#" class="link">Repo →</a></div>
+      </article>
+      <article class="proj glass-card tilt reveal">
+        <div class="proj-head"><span class="badge">Tool</span><span class="mono">stable</span></div>
+        <h3>Wraith</h3>
+        <p>An OSINT correlation engine that fuses public data sources into investigative graphs.</p>
+        <div class="chips"><span>TypeScript</span><span>OSINT</span><span>Graph</span></div>
+        <div class="proj-actions"><a href="#" class="link">GitHub →</a><a href="#" class="link">Demo →</a></div>
+      </article>
+      <article class="proj glass-card tilt reveal">
+        <div class="proj-head"><span class="badge">Framework</span><span class="mono">v1.0</span></div>
+        <h3>BlueRunner</h3>
+        <p>A detection engineering framework for building, testing and versioning Sigma rules at scale.</p>
+        <div class="chips"><span>Detection</span><span>SIEM</span><span>DevOps</span></div>
+        <div class="proj-actions"><a href="#" class="link">GitHub →</a><a href="#" class="link">Docs →</a></div>
+      </article>
+      <article class="proj glass-card tilt reveal">
+        <div class="proj-head"><span class="badge">Edu</span><span class="mono">beta</span></div>
+        <h3>Aurora Academy</h3>
+        <p>Guided offensive and defensive tracks with graded, hands-on labs and mentorship.</p>
+        <div class="chips"><span>Learning</span><span>Labs</span><span>Cohort</span></div>
+        <div class="proj-actions"><a href="#" class="link">Enroll →</a><a href="#" class="link">Syllabus →</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- EVENTS -->
+<section id="events" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow glass-chip"><span class="dot"></span> Events</span>
+      <h2 class="section-title">Upcoming events, hackathons and tournaments.</h2>
+    </div>
+    <div class="events">
+      <div class="ev glass-card tilt reveal">
+        <div class="ev-date"><b>14</b><span>MAR</span></div>
+        <div class="ev-body"><span class="badge live"><i></i>UPCOMING</span><h3>Nex Aura Championship — Qualifier I</h3><p>The first qualifier for the 2026 global season. Solo and team divisions, seven categories, 48 hours.</p><div class="chips"><span>CTF</span><span>Global</span><span>Prize Pool</span></div></div>
+      </div>
+      <div class="ev glass-card tilt reveal">
+        <div class="ev-date"><b>02</b><span>APR</span></div>
+        <div class="ev-body"><span class="badge">HACKATHON</span><h3>DefenderCon Build Weekend</h3><p>72 hours to build the next essential defensive tool. Mentors from top blue teams on-call.</p><div class="chips"><span>Hackathon</span><span>Detection</span></div></div>
+      </div>
+      <div class="ev glass-card tilt reveal">
+        <div class="ev-date"><b>19</b><span>APR</span></div>
+        <div class="ev-body"><span class="badge">MEETUP</span><h3>Community Meetup — Berlin</h3><p>In-person gathering with lightning talks, live challenges and after-party at a partner venue.</p><div class="chips"><span>Meetup</span><span>Berlin</span></div></div>
+      </div>
+      <div class="ev glass-card tilt reveal past">
+        <div class="ev-date"><b>08</b><span>FEB</span></div>
+        <div class="ev-body"><span class="badge">PAST</span><h3>AI Red Team Invitational</h3><p>32 elite teams competed across 12 prompt-injection and model-extraction challenges.</p><div class="chips"><span>AI</span><span>Invitational</span></div></div>
+      </div>
+      <div class="ev glass-card tilt reveal past">
+        <div class="ev-date"><b>21</b><span>JAN</span></div>
+        <div class="ev-body"><span class="badge">PAST</span><h3>Winter CTF 0x04</h3><p>Community-authored CTF with 42 challenges across every category. Over 3,000 participants.</p><div class="chips"><span>CTF</span><span>Community</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section id="team" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow glass-chip"><span class="dot"></span> Team</span>
+      <h2 class="section-title">Operators, researchers, and builders.</h2>
+    </div>
+    <div class="team-grid">
+      <div class="member glass-card tilt reveal"><div class="avatar" style="--g:linear-gradient(135deg,#00E5FF,#7C4DFF)">NA</div><h4>Nex Arcanum</h4><span>Founder · Architect</span><p>Former offensive security lead. Obsessed with turning training into competition.</p></div>
+      <div class="member glass-card tilt reveal"><div class="avatar" style="--g:linear-gradient(135deg,#7C4DFF,#FF2D88)">NX</div><h4>Nyx</h4><span>Head of Research</span><p>Binary exploitation and kernel-land. Publishes more than she sleeps.</p></div>
+      <div class="member glass-card tilt reveal"><div class="avatar" style="--g:linear-gradient(135deg,#FF2D88,#F59E0B)">AX</div><h4>Aurora X</h4><span>Community Lead</span><p>Runs the day-to-day of the community. Zero tolerance for gatekeeping.</p></div>
+      <div class="member glass-card tilt reveal"><div class="avatar" style="--g:linear-gradient(135deg,#10B981,#00E5FF)">ZC</div><h4>zer0cool</h4><span>Platform Engineering</span><p>Building the labs, arenas and matchmaking behind the Nex Aura platform.</p></div>
+      <div class="member glass-card tilt reveal"><div class="avatar" style="--g:linear-gradient(135deg,#F59E0B,#FF2D88)">KR</div><h4>Kairo</h4><span>AI Security</span><p>Adversarial ML, prompt injection, and building the AI Red Team arena.</p></div>
+      <div class="member glass-card tilt reveal"><div class="avatar" style="--g:linear-gradient(135deg,#7C4DFF,#10B981)">CV</div><h4>Contributors &amp; Volunteers</h4><span>The backbone</span><p>Hundreds of community volunteers author challenges, review writeups and mentor newcomers.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow glass-chip"><span class="dot"></span> Testimonials</span>
+      <h2 class="section-title">Voices from the community.</h2>
+    </div>
+    <div class="grid-3">
+      <blockquote class="quote glass-card tilt reveal"><p>"Nex Aura is the first community that treats CTFs like a real sport. I've learned more here in six months than in two years of solo grinding."</p><footer><b>— Priya S.</b><span>Security Engineer</span></footer></blockquote>
+      <blockquote class="quote glass-card tilt reveal"><p>"The writeups library alone is worth it. The community is what keeps me coming back."</p><footer><b>— Daniel R.</b><span>PhD, Cryptography</span></footer></blockquote>
+      <blockquote class="quote glass-card tilt reveal"><p>"I went from CTF newbie to placing top-20 in a global final thanks to the mentorship here."</p><footer><b>— Aiko M.</b><span>Red Team Analyst</span></footer></blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section">
+  <div class="container container-narrow">
+    <div class="section-head reveal">
+      <span class="eyebrow glass-chip"><span class="dot"></span> FAQ</span>
+      <h2 class="section-title">Frequently asked.</h2>
+    </div>
+    <div class="faq">
+      <details class="glass-card tilt reveal"><summary>Is Nex Aura free to join?<i>+</i></summary><p>Yes. The community, CTFs, writeups and events are free. The upcoming platform will have a generous free tier alongside premium seasonal passes.</p></details>
+      <details class="glass-card tilt reveal"><summary>Do I need experience to participate?<i>+</i></summary><p>No. We host beginner-friendly tracks, mentorship programs and guided learning paths. If you're curious, you belong here.</p></details>
+      <details class="glass-card tilt reveal"><summary>When is the platform launching?<i>+</i></summary><p>The Nex Aura Platform enters invite-only alpha this year, with a public beta and the first global championship to follow.</p></details>
+      <details class="glass-card tilt reveal"><summary>How is Nex Aura different from HTB, THM or CTFtime?<i>+</i></summary><p>We combine competitive infrastructure, community-authored content, AI security, and cross-discipline tournaments in one place — with a real ranked ladder and seasonal championships.</p></details>
+      <details class="glass-card tilt reveal"><summary>Can I contribute?<i>+</i></summary><p>Absolutely. Author challenges, publish writeups, mentor newcomers, build tools, or help run events. There's a place for every skill level.</p></details>
+      <details class="glass-card tilt reveal"><summary>Is Nex Aura a company?<i>+</i></summary><p>Nex Aura is a community first. A platform team supports the infrastructure that makes the community possible.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- JOIN -->
+<section id="join" class="section">
+  <div class="container">
+    <div class="cta glass-card reveal">
+      <div class="cta-glow"></div>
+      <span class="eyebrow glass-chip"><span class="dot"></span> Join Nex Aura</span>
+      <h2 class="cta-title">Your seat at the console is waiting.</h2>
+      <p>Join thousands of hackers, researchers and builders shaping the next era of cybersecurity.</p>
+      <div class="cta-actions">
+        <a href="#" class="btn btn-primary magnetic" data-magnetic><span>Join Discord</span></a>
+        <a href="#" class="btn btn-outline magnetic" data-magnetic><span>GitHub</span></a>
+        <a href="#" class="btn btn-ghost magnetic" data-magnetic><span>Contact</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="foot-brand">
+      <a href="#top" class="brand">
+        <span class="brand-mark"><svg viewBox="0 0 32 32" width="24" height="24"><use href="#"/><path d="M16 2 L28 9 V23 L16 30 L4 23 V9 Z" fill="none" stroke="url(#lg1)" stroke-width="2"/></svg></span>
+        <span class="brand-text">Nex<span class="brand-accent">Aura</span></span>
+      </a>
+      <p>Building the future of competitive cybersecurity. One challenge at a time.</p>
+    </div>
+    <div class="foot-cols">
+      <div><h5>Community</h5><a href="#features">Features</a><a href="#events">Events</a><a href="#projects">Projects</a><a href="#team">Team</a></div>
+      <div><h5>Platform</h5><a href="#platform">Overview</a><a href="#platform">Battlefields</a><a href="#platform">Championships</a><a href="#platform">Labs</a></div>
+      <div><h5>Resources</h5><a href="#">Writeups</a><a href="#">Learning Paths</a><a href="#">Research</a><a href="#faq">FAQ</a></div>
+      <div><h5>Connect</h5><a href="#">Discord</a><a href="#">GitHub</a><a href="#">X / Twitter</a><a href="#">Contact</a></div>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <div class="container foot-bottom-inner">
+      <span>© <span id="year"></span> Nex Aura. All rights reserved.</span>
+      <span class="mono">status: <b class="ok">all systems operational</b></span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/script.js" defer></script>
+</body>
+</html>
